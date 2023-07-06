@@ -1,0 +1,37 @@
+package Scanner;
+
+import java.util.Scanner;
+
+public class ScannerStudy {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Please enter your  Firstname: ");
+        String firstName=sc.nextLine();
+        System.out.print("Please enter your lastName: ");
+        String lastName=sc.nextLine();
+
+        System.out.print("Enter your Profession: ");
+        String Profession=sc.nextLine();
+
+        System.out.println("Please enter your address: ");
+        String add=sc.nextLine();
+
+        System.out.println("Please Enter your House Number: ");
+        int number=Integer.parseInt(sc.nextLine());
+
+
+
+
+        System.out.println("Hello "+firstName+" "+lastName);
+        System.out.println("Profession: "+Profession);
+        System.out.println("Address:"+add);
+        System.out.println("House Number:"+number);
+
+//        Mixed Inputs
+//        1. numbers and strings
+        
+
+
+
+    }
+}
